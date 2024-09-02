@@ -1,3 +1,8 @@
+<script setup>
+const user = useSupabaseUser()
+</script>
+
+ 
  <template>
     <div>
       <NuxtLayout>
@@ -5,3 +10,4 @@
       </NuxtLayout>
     </div>
  </template>
+

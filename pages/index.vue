@@ -1,8 +1,13 @@
+
+
+
 <template>
-    <div class="flex flex-col justify-center align-middle w-full min-h-screen max-w-3xl mx-auto space-y-2">
+    <div class="flex-container">
    
-     <div class="flex flex-col justify-center align-middle">
+     <div class="flex-1">
         <h1 class="text-2xl">Welcome to the Instax App!</h1>
+     </div>
+    <div class="flex-1">
         <p class="text-lg m-5">Login</p>
     
         <form>
@@ -39,8 +44,8 @@
             </button>
          </NuxtLink>
         </form>
-        </div>
-        </div>
+    </div>
+ </div>
 
 </template>
 
